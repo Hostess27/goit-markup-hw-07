@@ -29,7 +29,6 @@ body {
     letter-spacing: 0.03em;
 }
 
-
 a {
     text-decoration: none;
 }
@@ -107,7 +106,7 @@ svg {
     font-size: 26px;
     line-height: 1.19;
 }
-.logo__accent{
+.logo__accent {
     color: var(--accent-color);
 }
 
@@ -124,7 +123,7 @@ svg {
     border-bottom: 1px solid #ececec;
 }
 
-.header__container{
+.header__container {
     display: flex;
     align-items: center;
 }
@@ -144,14 +143,12 @@ svg {
     margin-left: 93px;
 }
 
-
-
 .nav__link:focus,
 .nav__link:hover {
     color: var(--accent-color);
 }
 
-.nav__link--current{
+.nav__link--current {
     color: var(--accent-color);
 }
 
@@ -175,7 +172,7 @@ svg {
     border-radius: 4px;
 }
 
-.contact__link{
+.contact__link {
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
@@ -199,12 +196,11 @@ svg {
     margin-right: 50px;
 }
 
-.contact__list{
+.contact__list {
     display: flex;
-    
 }
 
-.contact__item:not(:last-child){
+.contact__item:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -239,7 +235,6 @@ svg {
 .contact__icon:focus {
     fill: var(--accent-color);
 }
-
 
 .adds {
     margin-right: 70px;
@@ -346,12 +341,12 @@ svg {
     color: var(--white);
 }
 
-.input__form {
+.form {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.input-mail {
+.form__mail {
     display: inline-block;
     width: 358px;
     height: 50px;
@@ -384,7 +379,7 @@ svg {
     border-radius: 4px;
 }
 
-.send-icon {
+.input-button__icon {
     margin-left: 10px;
     fill: var(--white);
 }
@@ -468,7 +463,7 @@ svg {
     line-height: 1.14;
     font-weight: 700;
     text-transform: uppercase;
-    
+
     margin-bottom: 10px;
 }
 .features__info {
@@ -477,7 +472,7 @@ svg {
     margin-top: 0;
 }
 
-.title{
+.title {
     text-align: center;
     font-size: 36px;
     line-height: 1.16;
@@ -486,10 +481,9 @@ svg {
     margin-bottom: 50px;
     color: var(--title-text-color);
 }
-.work__list{
+.work__list {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .work__item {
@@ -524,7 +518,6 @@ svg {
     color: var(--white);
     background-color: rgba(47, 48, 58, 0.8);
 }
-
 
 .team-color {
     background-color: var(--title-background-color);
@@ -842,8 +835,7 @@ svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.modal__form {
+.modal-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -861,7 +853,7 @@ svg {
     flex-direction: column;
 }
 
-.modal-list__form--fild {
+.modal-list__label {
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
@@ -870,7 +862,7 @@ svg {
     color: var(--primary-text-color);
 }
 
-.modal-list__form--kind {
+.modal-list__kind {
     height: 40px;
     padding-left: 42px;
 
@@ -882,21 +874,19 @@ svg {
         border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-list__form--kind:hover,
-.modal-list__form--kind:focus,
-.modal-list__form--kind:active {
+.modal-list__kind:hover,
+.modal-list__kind:focus,
+.modal-list__kind:active {
     outline: var(--accent-color);
     border-color: var(--accent-color);
 }
-.modal-list__form--kind:hover + .modal-list__form--icons,
-.modal-list__form--kind:focus + .modal-list__form--icons,
-.modal-list__form--kind:active + .modal-list__form--icons {
+.modal-list__kind:hover + .modal-list__icons,
+.modal-list__kind:focus + .modal-list__icons,
+.modal-list__kind:active + .modal-list__icons {
     fill: var(--accent-color);
 }
 
-
-
-.modal-list__form--icons {
+.modal-list__icons {
     position: absolute;
     display: inline-block;
     top: 50%;
@@ -917,7 +907,7 @@ svg {
     color: var(--accent-color);
 }
 
-.modal-list__form--comments {
+.modal-list__comments {
     width: 448px;
     height: 120px;
     resize: none;
@@ -938,18 +928,17 @@ svg {
     justify-content: center;
 
     margin-bottom: 30px;
-
 }
 
-.modal-list__form--comments:hover,
-.modal-list__form--comments:focus {
+.modal-list__comments:hover,
+.modal-list__comments:focus {
     outline: var(--accent-color);
     border-color: var(--accent-color);
 }
 
-.checkbox-like{
+.checkbox-like {
     display: flex;
-
+    align-items: center;
 }
 
 .checkbox-like__modal-checkbox {
@@ -958,12 +947,12 @@ svg {
     appearance: none;
 }
 
-
-.checkbox-like__check-icon {
+.checkbox-like__icon {
     display: inline-flex;
     justify-content: center;
     align-items: center;
 
+    margin-right: 10px;
     width: 17px;
     height: 17px;
 
@@ -972,14 +961,13 @@ svg {
     cursor: pointer;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-like__modal-checkbox:checked + .checkbox-like__check-icon {
+.checkbox-like__modal-checkbox:checked + .checkbox-like__icon {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
-
 }
 
 .icon-tick {

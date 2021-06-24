@@ -670,17 +670,17 @@
                 </div>
                 <div class="input">
                     <h3 class="input__tittle">Подпишитесь на рассылку</h3>
-                    <form class="input__form">
+                    <form class="form">
                         <label
                             ><input
                                 type="email"
                                 name="email"
                                 placeholder="E-mail"
-                                class="input-mail"
+                                class="form__mail"
                         /></label>
                         <button type="submit" class="input-button">
                             Подписаться<svg
-                                class="send-icon"
+                                class="input-button__icon"
                                 width="24"
                                 height="24"
                             >
@@ -701,14 +701,14 @@
                         </svg>
                     </button>
 
-                    <form class="modal__form">
+                    <form class="modal-form">
                         <ul class="list modal-list">
                             <li class="modal-list__form">
-                                <label for="text" class="modal-list__form--fild"
+                                <label for="text" class="modal-list__label"
                                     >Имя</label
                                 >
                                 <input
-                                    class="modal-list__form--kind"
+                                    class="modal-list__kind"
                                     type="text"
                                     name="username"
                                     id="text"
@@ -717,7 +717,7 @@
                                 />
 
                                 <svg
-                                    class="modal-list__form--icons"
+                                    class="modal-list__icons"
                                     width="18"
                                     height="18"
                                 >
@@ -727,18 +727,18 @@
                                 </svg>
                             </li>
                             <li class="modal-list__form">
-                                <label for="tell" class="modal-list__form--fild"
+                                <label for="tell" class="modal-list__label"
                                     >Телефон</label
                                 >
                                 <input
-                                    class="modal-list__form--kind"
+                                    class="modal-list__kind"
                                     type="tell"
                                     name="tell"
                                     id="tell"
                                     placeholder=" "
                                 />
                                 <svg
-                                    class="modal-list__form--icons"
+                                    class="modal-list__icons"
                                     width="18"
                                     height="18"
                                 >
@@ -748,18 +748,18 @@
                                 </svg>
                             </li>
                             <li class="modal-list__form">
-                                <label for="mail" class="modal-list__form--fild"
+                                <label for="mail" class="modal-list__label"
                                     >Почта</label
                                 >
                                 <input
-                                    class="modal-list__form--kind"
+                                    class="modal-list__kind"
                                     type="emeil"
                                     name="mail"
                                     id="mail"
                                     placeholder=" "
                                 />
                                 <svg
-                                    class="modal-list__form--icons"
+                                    class="modal-list__icons"
                                     width="18"
                                     height="18"
                                 >
@@ -772,13 +772,13 @@
                             <li class="modal-list__form">
                                 <label
                                     for="comments"
-                                    class="modal-list__form--fild"
+                                    class="modal-list__label"
                                     >Коментарий</label
                                 >
                                 <textarea
                                     name="comments"
                                     id="comments"
-                                    class="modal-list__form--comments"
+                                    class="modal-list__comments"
                                     cols="30"
                                     rows="10"
                                     placeholder="Введите текст"
@@ -793,7 +793,7 @@
                                     id="checkbox"
                                 />
 
-                                <span class="checkbox-like__check-icon"
+                                <span class="checkbox-like__icon"
                                     ><svg
                                         class="icon-tick"
                                         width="18"
