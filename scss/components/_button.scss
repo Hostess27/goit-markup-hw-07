@@ -1,0 +1,47 @@
+.input-button {
+    @extend %flex;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    margin-right: 10px;
+
+    background: var(--accent-color);
+    color: var(--white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero__button {
+    background-color: var(--accent-color);
+    color: var(--white);
+    font-size: 16px;
+    line-height: 1.87;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 10px 32px;
+
+    min-width: 200px;
+}
+
+.site-option {
+	.site-option__button {
+		&:hover {
+			background-color: var(--accent-color);
+			color: var(--white);
+			@extend %shadow;
+			border-radius: 4px;
+		}
+		&:focus {
+			background-color: var(--accent-color);
+			color: var(--white);
+			@extend %shadow;
+			border-radius: 4px;
+		}
+	}
+}

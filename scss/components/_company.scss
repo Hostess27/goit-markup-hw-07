@@ -1,0 +1,37 @@
+.company {
+    @extend %flex;
+    justify-content: center;
+    .company__list {
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+}
+
+
+
+.company__link {
+	display: inline-flex;
+	border: 1px solid var(--blue-gray);
+	width: 170px;
+	height: 92px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	&:hover {
+		.company__icon {
+			fill: var(--accent-color);
+		}
+		border-color: var(--accent-color);
+	}
+	&:focus {
+		.company__icon {
+			fill: var(--accent-color);
+		}
+		border-color: var(--accent-color);
+	}
+}
+.company__icon {
+	fill: var(--blue-gray);
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
