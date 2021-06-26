@@ -13,8 +13,6 @@
     flex-basis: 270px;
 }
 
-
-
 .feature__thumb {
     @extend %flex;
     width: 100%;
@@ -40,4 +38,5 @@
     font-size: 14px;
     line-height: 1.7;
     margin-top: 0;
+    letter-spacing: 0.03em;
 }
